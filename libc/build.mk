@@ -742,6 +742,7 @@ libc += cxa_thread_atexit.o
 libc += cpu_set.o
 
 libc += linux/makedev.o
+musl += linux/cap.o
 
 ifneq ($(musl_arch), notsup)
 musl += fenv/fegetexceptflag.o
